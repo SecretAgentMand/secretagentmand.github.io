@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  color: #efefe7;
+  font: normal .9em/1.1 arial;
+}
+body{
+  margin: 24px;
+  background-image: url('../img/floor.png');
+  background-color: #743430;
+  width: 600px;
+}
+
+body > *~*{
+  margin: 1em 0;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1{
+  text-align: center;
+}
+header button{
+  padding: .25em;
+  margin-right: 24px;
+}
+main{
+  width: 600px;
+  height: 552px;
+  color: #211010;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background: #9cc610 url('../img/back-grass.png') padding-box padding-box;
+  border-style: solid;
+  border-width: 24px 72px 48px 48px;
+  border-image: url('../img/border.png') repeat 24 72 48 48;
+}
+h4{
+  width: 96px;
+  height: 96px;
+  padding: 22px 4px;
+}
+span{
+  background-color: #9cc610;
+  vertical-align: middle;
+}
+.selected{
+  background-color: #de2939;
+  color:#efefe7;
+  background-image: url('../img/back-red.png');
+}
+.selected span{
+  background-color: transparent;
+}
+label{
+  display: block; 
+}
+aside{
+  background-color: #211010;
+  border: solid 3px;
+  padding: 1em;
+}
+div{
+  margin: 1em 0;
+}
